@@ -1,0 +1,8 @@
+name: gptpy
+channels:
+ - conda-forge
+ - default
+dependencies:
+ - python >= 3.11
+ - openai >= 1.0.0
+ - dotenv
