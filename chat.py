@@ -16,7 +16,7 @@ client = OpenAI(api_key=API_KEY)
 
 CONTENT = (
     os.getenv("GPTPY_SYSTEM_PROMPT")
-    or "You are a helpful assistant. The maximum length of a response should be 120 characters in width."
+    or "You are a helpful assistant."
 )
 
 messages = [{"role": "system", "content": CONTENT}]
