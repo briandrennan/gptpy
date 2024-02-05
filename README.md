@@ -144,7 +144,7 @@ You can configure the environment for chat.py using a .env file. Here's an examp
 # This is the only required variable.
 GPTPY_OPENAI_API_KEY="YOUR_API_KEY_HERE"
 # Optional. This is the "gpt-4-turbo" model name. This model is used by default.
-GPTPY_MODEL_NAME="gpt-4-1106-preview"
+GPTPY_MODEL_NAME="gpt-4-turbo-preview"
 # Optional. This is useful if you want to specify an alternate prompt to condition
 # the model to respond a certain way.
 GPTPY_SYSTEM_PROMPT="You are a helpful assistant."

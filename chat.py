@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get the model name from the environment variable or use the current value as a constant
-MODEL = os.getenv("GPTPY_MODEL_NAME") or "gpt-4-1106-preview"
+MODEL = os.getenv("GPTPY_MODEL_NAME") or "gpt-4-turbo-preview"
 
 # Get the API key from the environment variable
 API_KEY = os.getenv("GPTPY_OPENAI_API_KEY")
